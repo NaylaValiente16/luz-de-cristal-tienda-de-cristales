@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luz de cristal - Tienda de Cristales</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#quienes">¿Quiénes somos?</a></li>
+            <li><a href="#tienda">Tienda</a></li>
+            <li><a href="#significados">Significados</a></li>
+            <li><a href="#quiz">¿Qué cristal necesitas?</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="logo">
+        <img src="img/logo.jpg" alt="Luz de Cristal Logo">
+    </div>
+
+
+    <header class="hero" id="inicio">
+        <div class="overlay">
+            <h1>Bienvenido a Luz de cristal</h1>
+            <p>Armonía, energía y magia en cada piedra</p>
+        </div>
+    </header>
+
+     <section class="quienes-somos" id="quienes">
+            <h1>¿Quiénes somos?</h1>
+            <p>Somos amantes de las piedras y su energía. Luz de Cristal nació desde el deseo de compartir sus propiedades mágicas con el mundo. Creemos en el poder de la conexión con la naturaleza, la intuición y la sanación interior. Cada cristal que ofrecemos fue elegido con amor.
+    </p>
+  </section>
+
+    <section class="tienda" id="tienda">
+        <h2>Tienda</h2>
+        <div class="producto">
+            <img src="img/amatista.jpg" alt="amatista">
+            <h3>Amatista</h3>
+            <p>Calma y espiritualidad.</p>
+            <span>$1500</span>
+        </div>
+        <div class="producto">
+            <img src="img/cuarzorosa.jpg" alt="cuarzo">
+            <h3>Cuarzo Rosa</h3>
+            <p>Amor y armonía.</p>
+            <span>$1200</span>
+        </div>
+        <div class="producto">
+            <img src="img/obsidiana.jpg" alt="obsidiana">
+            <h3>Obsidiana</h3>
+            <p>Protección y fuerza.</p>
+            <span>$1800</span>
+        </div>
+        <div class="producto">
+            <img src="img/cuarzocristal.jpg" alt="cuarzo">
+            <h3>Cuarzo Cristal</h3>
+            <p>Claridad y energía.</p>
+            <span>$1600</span>
+        </div>
+    </section>
+
+    <section class="significados" id="significados">
+        <h2>Significados de los cristales</h2>
+        <div class="tarjetas">
+            <div class="tarjeta">
+            <h3>Amatista</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui rerum sunt illo non quam voluptatibus at numquam quae, nemo optio, nihil ab in libero inventore perferendis! Praesentium tempora odit molestiae.</p>
+            </div>
+            <div class="tarjeta">   
+            <h3>Cuarzo Rosa</h3>
+            <p>Amor propio y armonía</p>
+            </div>
+            <div class="tarjeta">
+            <h3>Obsidiana</h3>
+            <p>Protección y fuerza</p>  
+            </div>
+            <div class="tarjeta">       
+            <h3>Cuarzo Cristal</h3>
+            <p>Claridad y energía</p>   
+            </div>
+    </div>
+    </section>
+
+    <section class="quiz" id="quiz">
+        <h2>¿Qué cristal necesitas?</h2>
+        <p>PROXIMAMENTE...</p>
+        <form action="#" method="post">
+            <label for="pregunta1">¿Qué emoción deseas trabajar?</label>
+            <select id="pregunta1" name="pregunta1">
+                <option value="amor">Amor</option>
+                <option value="proteccion">Protección</option>
+                <option value="claridad">Claridad</option>
+                <option value="espiritualidad">Espiritualidad</option>
+            </select>
+
+            <label for="pregunta2">¿Cuál es tu color favorito?</label>
+            <select id="pregunta2" name="pregunta2">
+                <option value="rojo">Rojo</option>
+                <option value="azul">Azul</option>
+                <option value="verde">Verde</option>
+                <option value="violeta">Violeta</option>
+            </select>
+
+            <button type="submit">Descubrir mi cristal</button>
+        </form>
+    </section>
+
+        <section class="testimonios" id="testimonios">
+            <h2>Testimonios</h2>
+            <div class="comentarios">
+                <blockquote>"Desde que uso mis piedras de Luz de Cristal, siento más paz y claridad. Gracias!!" <br> 
+            <cite> -Clara M.</cite> </blockquote>
+                <blockquote>"La energía de los cristales es increíble. Me siento más conectada conmigo misma." <br>
+            <cite> -Sofia R.</cite> </blockquote>
+                <blockquote>"Los productos son hermosos y de alta calidad. Definitivamente volveré a comprar." <br>
+            <cite> -Lucia T.</cite> </blockquote>
+            </div>
+            </section>
+
+    <section class="contacto">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        </section>
+
+    <footer>
+        <p>&copy; 2025 Luz de Cristal. Todos los derechos reservados.</p>
+    </footer>
+    
+</body>
+</html>
