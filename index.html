@@ -191,30 +191,6 @@
     </div>
     </section>
 
-    <section class="quiz" id="quiz">
-        <h2>¿Qué cristal necesitas?</h2>
-        <p>PROXIMAMENTE...</p>
-        <form action="#" method="post">
-            <label for="pregunta1">¿Qué emoción deseas trabajar?</label>
-            <select id="pregunta1" name="pregunta1">
-                <option value="amor">Amor</option>
-                <option value="proteccion">Protección</option>
-                <option value="claridad">Claridad</option>
-                <option value="espiritualidad">Espiritualidad</option>
-            </select>
-
-            <label for="pregunta2">¿Cuál es tu color favorito?</label>
-            <select id="pregunta2" name="pregunta2">
-                <option value="rojo">Rojo</option>
-                <option value="azul">Azul</option>
-                <option value="verde">Verde</option>
-                <option value="violeta">Violeta</option>
-            </select>
-
-            <button type="submit">Descubrir mi cristal</button>
-        </form>
-    </section>
-
         <section class="cuidado" id="cuidado">
   <h2>Cómo limpiar, cargar y activar tus cristales</h2>
 
@@ -297,6 +273,54 @@
   </div>
 </section>
 
+   <section class="quiz" id="quiz">
+  <h2>¿Qué cristal necesitás?</h2>
+  <form id="formCristales">
+    <label for="emocion">¿Qué emoción querés trabajar?</label>
+    <select id="emocion" required>
+      <option value="">Elegí una opción</option>
+      <option value="amor">Amor</option>
+      <option value="protección">Protección</option>
+      <option value="claridad">Claridad mental</option>
+      <option value="calma">Calma</option>
+      <option value="autoestima">Autoestima</option>
+    </select>
+
+    <label for="color">¿Qué color te llama más la atención hoy?</label>
+    <select id="color" required>
+      <option value="">Elegí una opción</option>
+      <option value="rosa">Rosa</option>
+      <option value="negro">Negro</option>
+      <option value="violeta">Violeta</option>
+      <option value="verde">Verde</option>
+      <option value="blanco">Blanco</option>
+      <option value="amarillo">Amarillo</option>
+      <option value="rojo">Rojo</option>
+      <option value="azul">Azul</option>
+    </select>
+
+    <label for="intencion">¿Qué intención tenés en mente?</label>
+    <select id="intencion" required>
+      <option value="">Elegí una opción</option>
+      <option value="sanación">Sanación</option>
+      <option value="energía">Energía y motivación</option>
+      <option value="limpieza">Limpieza energética</option>
+      <option value="intuición">Conexión e intuición</option>
+      <option value="amor-propio">Amor propio</option>
+    </select>
+
+    <label for="intensidad">¿Querés una energía suave o intensa?</label>
+    <select id="intensidad" required>
+      <option value="">Elegí una opción</option>
+      <option value="suave">Suave</option>
+      <option value="intensa">Intensa</option>
+    </select>
+
+    <button type="submit">Descubrir mi cristal</button>
+  </form>
+
+  <div id="resultadoCristal" class="resultado-cristal"></div>
+</section>
 
     <section class="contacto">
         <h2>Contacto</h2>
@@ -313,6 +337,9 @@
             <button type="submit">Enviar</button>
         </form>
         </section>
+
+        <script src="script.js"></script>
+
 
     <footer>
         <p>&copy; 2025 Luz de Cristal. Todos los derechos reservados.</p>
