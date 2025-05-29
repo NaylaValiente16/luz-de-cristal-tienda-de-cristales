@@ -32,4 +32,4 @@ Podés ver la página publicada acá:
 
 ---
 
-> Creado con 💜 por Nay Valiente
+> Creado con 💜 por Nayla Valiente
