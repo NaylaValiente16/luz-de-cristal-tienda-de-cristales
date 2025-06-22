@@ -30,6 +30,4 @@ Los colores, fuentes y estilo están inspirados en lo etéreo, místico y natura
 Podés ver la página publicada acá:  
 ➡️ [https://naylavaliente16.github.io/luz-de-cristal-tienda-de-cristales/](https://naylavaliente16.github.io/luz-de-cristal-tienda-de-cristales/)
 
----
 
-> Creado con 💜 por Nayla Valiente
